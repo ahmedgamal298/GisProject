@@ -1,0 +1,87 @@
+<PAMDataset>
+  <SRS>GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]]</SRS>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="SOURCE_COLOR_SPACE">YCbCr</MDI>
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+    <MDI key="COMPRESSION">JPEG</MDI>
+  </Metadata>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:CompositeXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/10.1">
+      <XF_0 xsi:type="typens:PolynomialXform">
+        <PolynomialOrder>1</PolynomialOrder>
+        <SpatialReference xsi:type="typens:UnknownCoordinateSystem">
+          <XOrigin>31.164509812649829</XOrigin>
+          <YOrigin>27.170550613134573</YOrigin>
+          <XYScale>2.0776793282128467e+017</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>1.2889689315898069e-012</XYTolerance>
+          <ZTolerance>0.00020000000000000001</ZTolerance>
+          <MTolerance>0.00020000000000000001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+        </SpatialReference>
+        <SourceGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>249.08425460636505</Double>
+          <Double>-8.744053601340072</Double>
+          <Double>309.03701842546053</Double>
+          <Double>-631.78257956448908</Double>
+          <Double>1077.8430485762142</Double>
+          <Double>-571.8298157453936</Double>
+          <Double>959.11306532663298</Double>
+          <Double>-80.452261306532691</Double>
+        </SourceGCPs>
+        <TargetGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>31.184002</Double>
+          <Double>27.182048000000002</Double>
+          <Double>31.184002</Double>
+          <Double>27.182048000000002</Double>
+          <Double>31.189854</Double>
+          <Double>27.178678999999999</Double>
+          <Double>31.188880999999999</Double>
+          <Double>27.181625</Double>
+        </TargetGCPs>
+        <Name />
+      </XF_0>
+      <XF_1 xsi:type="typens:PolynomialXform">
+        <PolynomialOrder>1</PolynomialOrder>
+        <SpatialReference xsi:type="typens:UnknownCoordinateSystem">
+          <XOrigin>31.164509812649829</XOrigin>
+          <YOrigin>27.170550613134573</YOrigin>
+          <XYScale>2.0776793282128467e+017</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>1.2889689315898069e-012</XYTolerance>
+          <ZTolerance>0.00020000000000000001</ZTolerance>
+          <MTolerance>0.00020000000000000001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+        </SpatialReference>
+        <CoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>-128989076941.4351</Double>
+          <Double>4818889465.326479</Double>
+          <Double>-783128552.93047822</Double>
+        </CoeffX>
+        <CoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>-155403709375.36707</Double>
+          <Double>783128552.93047822</Double>
+          <Double>4818889465.326479</Double>
+        </CoeffY>
+        <InverseCoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>31.18462858605201</Double>
+          <Double>2.0217714679656233e-010</Double>
+          <Double>3.2856262328830541e-011</Double>
+        </InverseCoeffX>
+        <InverseCoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>27.180979613572401</Double>
+          <Double>-3.2856262328830541e-011</Double>
+          <Double>2.0217714679656233e-010</Double>
+        </InverseCoeffY>
+        <Name />
+      </XF_1>
+      <RequireDEM>false</RequireDEM>
+    </GeodataXform>
+  </Metadata>
+</PAMDataset>
